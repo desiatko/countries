@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textViewStyle">@style/TextAppearance.TextCaption</item>
+    </style>
+
+    <style name="Guideline">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="Guideline.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Guideline.Horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="TextAppearance.TextCaption" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.TextValue" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Details"/>
+
+    <style name="Details.Text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Details.Text.Caption">
+        <item name="android:textAppearance">@style/TextAppearance.TextCaption</item>
+    </style>
+
+    <style name="Details.Text.Value">
+        <item name="android:textAppearance">@style/TextAppearance.TextCaption</item>
+    </style>
+
+</resources>

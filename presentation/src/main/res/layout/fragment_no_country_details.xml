@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.AppCompatTextView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/no_countries_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/select_country"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@id/country_details_container"
+        app:layout_constraintEnd_toEndOf="@id/country_details_container"
+        app:layout_constraintTop_toTopOf="@id/country_details_container"
+        app:layout_constraintBottom_toBottomOf="@id/country_details_container"/>
+

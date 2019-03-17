@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Countries</string>
+    <string name="loading">Loading…</string>
+    <string name="country_name_format">%1s (%2s)</string>
+    <string name="name">Name</string>
+    <string name="local_name">Local name</string>
+    <string name="alpha_code">Alpha code</string>
+    <string name="population">Population</string>
+    <string name="area">Area</string>
+    <string name="area_value_format">%.0f sq km</string>
+    <string name="capital">Capital</string>
+    <string name="region">Region</string>
+    <string name="subregion">Subregion</string>
+    <string name="location">Location</string>
+    <string name="location_value_format">Lat: %.3f, long: %.3f</string>
+    <string name="currencies">Currencies</string>
+    <string name="languages">Languages</string>
+    <string name="select_country">Please select country to see details</string>
+</resources>
